@@ -1,11 +1,11 @@
-# 🧠 Sports vs Politics Text Classification — ML From Scratch
+#  Sports vs Politics Text Classification — using ML different techniques 
 
-A Machine Learning from Scratch project that builds a full NLP classification pipeline without using high-level ML model APIs.  
-The system classifies documents into **Sports** or **Politics** using custom implementations of TF-IDF, Logistic Regression, Multinomial Naive Bayes, and Decision Tree.
+Different Machine Learning techniques that builds a full NLP classification pipeline.  
+The model classifies documents into **Sports** or **Politics** using custom implementations of TF-IDF, Logistic Regression, Multinomial Naive Bayes, and Decision Tree.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates an end-to-end text classification workflow:
 
@@ -20,7 +20,7 @@ The main goal is to understand the **internal working of ML algorithms** instead
 
 ---
 
-## ✨ Features
+##  Features
 
 - Custom TF-IDF Vectorizer with smoothing and L2 normalization
 - Logistic Regression using Batch Gradient Descent
@@ -32,7 +32,7 @@ The main goal is to understand the **internal working of ML algorithms** instead
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - Python
 - NumPy
@@ -42,7 +42,7 @@ The main goal is to understand the **internal working of ML algorithms** instead
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 project/
@@ -53,7 +53,7 @@ project/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 
 Install required libraries:
@@ -64,7 +64,7 @@ pip install numpy pandas scikit-learn
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 Run the program from terminal:
 
@@ -87,7 +87,7 @@ The script will:
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 
 - Null value checking
 - Lowercase normalization
@@ -97,27 +97,27 @@ The script will:
 
 ---
 
-## 🧮 Implemented Algorithms
+##  Implemented Algorithms
 
-### 🔵 Logistic Regression (From Scratch)
+###  Logistic Regression (From Scratch)
 - Sigmoid activation
 - Gradient Descent optimization
 - Binary classification support
 - One-vs-Rest multiclass strategy
 
-### 🟢 Multinomial Naive Bayes (From Scratch)
+###  Multinomial Naive Bayes (From Scratch)
 - Log probability modeling
 - Laplace smoothing
 - Efficient probability computation
 
-### 🌳 Decision Tree (From Scratch)
+###  Decision Tree (From Scratch)
 - Gini impurity splitting
 - Feature sampling
 - Recursive tree construction
 
 ---
 
-## 🔁 Custom Pipeline
+##  Custom Pipeline
 
 Pipeline flow:
 
@@ -129,7 +129,7 @@ Provides a modular workflow similar to Scikit-learn pipelines.
 
 ---
 
-## 📊 Evaluation
+##  Evaluation
 
 Models are evaluated using:
 
@@ -146,7 +146,7 @@ Metrics include:
 
 ---
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 - Understand ML algorithms internally
 - Implement NLP feature engineering manually
